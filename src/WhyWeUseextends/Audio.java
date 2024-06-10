@@ -1,9 +1,6 @@
 package WhyWeUseextends;
 
 public class Audio extends Media{
-
-	//1. Here we have extended the Parent class(Media) to its child class now, all the properties of its parent class will
-	//come in the child class.
 	
 	private String playSong;
 	private String pauseSong;

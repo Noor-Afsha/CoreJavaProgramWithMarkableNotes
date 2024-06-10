@@ -4,8 +4,6 @@ public class Main {
 
 	public static void main(String[] args) {
 		
-		//now in the Main class will create an object of every class and by using the reference variable, set its variable.
-		//by using toString will print the method:-
 		  Media media = new Media();
 	        media.setId(1);
 	        media.setTitle("Song Title");
@@ -30,9 +28,3 @@ public class Main {
 	        System.out.println(a);
 	}
 }
-
-//output is below:-
-
-//Media [id=1, title=Song Title]
-//Vedio [palyVedio=Video, pauseVedio=1080p]
-//Audio [playSong=Audio Artist, pauseSong=pause]

@@ -1,0 +1,39 @@
+1. what is multiple inheritance and why we use and why java not support multiple inheritance?
+	
+	Java does not support multiple inheritance directly due to ambiguity issues....
+	
+-------------------------------------------------------------------------------------
+2. What is Ambiguity?
+	
+	1. It occurs where class inherits,from more than one parent class 
+	2. And both the parent-class have a method or properties with the same name
+	3. So child can not resolve the conflict of the method, property to be inherited..
+	
+	NOTE:-How ever, a class can inherit from multiple interfaces....
+	
+----------------------------------------------------------------------------------------
+
+Here, In this package called "WhyWeUseMultipleInheritance".. i have created more than one interface like(Media and AdvancedPlayer)
+
+So again i will create one more class "MultiMedia", in which i will implements the (Media and AdvancedPlayer) class.
+
+----------------------------------------------------------------------------------------------------------
+
+So in the MultiMedia class we are inheriting multiple classes, with different methods.
+
+And we create one more class called Main where i will give one {main method}(without main method our program will not 
+execute and then will create Object of Implemented class......here implemented class is (MultiMedia)..
+and then run the program and output is below:-
+
+
+-------------------------------------------------------------------------
+
+//output
+
+Main method executed
+Multimedia is playing
+multi media is paused
+Multimedia is being seeked
+Multimedia is fastFarwaded
+
+

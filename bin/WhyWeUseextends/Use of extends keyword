@@ -1,0 +1,29 @@
+
+Here is the notes:-
+
+1. What is extends and why we use it?
+
+1. Extends is the keyword, which is used t access the properties of parent class to its child class.
+2. Technically, we can say that inheriting the properties of super-class to its child-class is known as extends.
+3. Derived class can have only one base class because, because in java it does not support multiple inheritance.
+4. Derived is nothing but its known as child-class or sub-class.
+
+see the above example carefully and now we need to create one more class where we can extends the parent class properties
+
+to its child class....so here Media is the parent class and Audio is its child class and more child class called Media .....let see:-
+-------------------------------------------------------------------
+
+1. Here we have extended the Parent class(Media) to its child class now, all the properties of its parent class will
+	come in the child class.
+
+----------------------------------------------------------------------------------------------------------
+	now in the Main class will create an object of every class and by using the reference variable, set its variable.
+	
+	by using toString will print the method:-
+		
+--------------------------------------------------------------------------------------		
+output is below:-
+
+Media [id=1, title=Song Title]
+Vedio [palyVedio=Video, pauseVedio=1080p]
+Audio [playSong=Audio Artist, pauseSong=pause]

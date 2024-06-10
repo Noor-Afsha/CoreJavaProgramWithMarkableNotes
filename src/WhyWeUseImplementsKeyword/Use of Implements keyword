@@ -1,0 +1,36 @@
+1. In interface we can write methods, but it should be without body as shown  below:-
+	
+	
+2.What is implementations?
+	
+1. Its a keyword to implement an interface.
+2. An interface consists of only "Abstract method".
+3. A class will implement the  interface and define these abstract method as per the required functionality.
+4. Here, Any class can implements multiple inheritance.
+5. The interface contains only methods declaration not the implementation...like below:-
+6. In java interface does not explicit declare a method as abstract or public like(void play(), void pause(), here we are not using public or abstract to indicate the methods.
+
+
+NOTE:- While writing a method in interface  no need to give abstract..
+
+
+	   Constructor will invoke it by default.
+	   
+	   
+	   Here will create one interface called Media and other classess are like(Audio and Vedio) and these classes we are implementing with 
+	   the parent class called Media...
+	   
+	   And later will create one Main class and in that main class will create object of each implemented class and by using 
+	   reference variable will call the methods.
+	   
+	   
+************Below is the output:-
+	   
+	   
+main method executed
+music is playing
+Paused the music
+stop the vedio
+paused the vedio
+	   
+	
