@@ -1,0 +1,17 @@
+Final is keyword...access specifier..
+
+1. Variable:- if we are using final keyword in variable...it means variable value will never changes in future:-
+
+example:- final int age=12;
+
+here age value will never changed from 12 to any other values, if we try to change this will get compile time error.
+
+2. Class:- if we are using final with class then we can not inherit class.because it will restricted the inherit properties to
+its child class.
+
+3. Constructor:-We can not make final in constructor, because it initialized the object and if we make constructor as final 
+then we need to make changes in object.so this is the reason why we can not make the constructor final.
+
+Constructor can not be :-abstract, final and static.
+
+Method: It can be final....and no one can overrride that method.
