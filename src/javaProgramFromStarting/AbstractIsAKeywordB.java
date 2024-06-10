@@ -1,6 +1,6 @@
 package javaProgramFromStarting;
 
-public class AbstractIsAKeywordB extends AbstractIsAKeywordA{
+public class AbstractIsAKeywordB extends AbstractIsAKeywordA {
 
 	@Override
 	void add() {
@@ -8,7 +8,7 @@ public class AbstractIsAKeywordB extends AbstractIsAKeywordA{
 	}
 
 	public static void main(String[] args) {
-		AbstractIsAKeywordB b=new AbstractIsAKeywordB();
+		AbstractIsAKeywordB b = new AbstractIsAKeywordB();
 		b.add();
 		b.substract();
 		System.out.println("main method executed");
@@ -16,6 +16,6 @@ public class AbstractIsAKeywordB extends AbstractIsAKeywordA{
 
 	@Override
 	void substract() {
-	System.out.println("Substract method executed");
+		System.out.println("Substract method executed");
 	}
 }
