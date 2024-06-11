@@ -14,4 +14,4 @@ then we need to make changes in object.so this is the reason why we can not make
 
 Constructor can not be :-abstract, final and static.
 
-Method: It can be final....and no one can overrride that method.
+Method: It can be final....and no one can overrride that method.gi

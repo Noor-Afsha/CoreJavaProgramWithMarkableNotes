@@ -1,0 +1,31 @@
+1. What is access modifier?
+Access modifiers tell us that where we can access the class members....
+
+----------------------------------------------------------------------------------------------------------
+2.What are the members?
+
+Variables, constructor, Methods...
+
+---------------------------------------------------------------------------------------------------
+3.Types of Access modifiers?
+There are  types of access modifiers...
+a)public
+b)private
+c)default
+d)protected
+
+------------------------------------------------------------------------------------------------------
+What is public?
+
+public access modifiers means we can access the class members within the class, outside of the class within the package
+and out of the package also...it means overall we can access public class members every where in the whole project.
+
+For that we need to import the packages.class name or entity.
+
+We can make class, method, variables and constructor as a public.
+
+To access the Entity in different package or class we need to create an object of that class and imports it. 
+
+If we are accessing the class which is not public then we can not access, ...
+
+Within the same class and packages no need to imports that packages.

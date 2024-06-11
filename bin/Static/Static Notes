@@ -1,0 +1,10 @@
+1. Static is a keyword...access specifier.
+
+2. Variable, method, and inner class can be static.
+
+3.If the value of the variable is common for all object. then we can use static.
+
+4. For memory management we can use......if for a variable called "companyName" is common for all employees so
+can save memory also.
+
+so let create one program and understand line by line.
