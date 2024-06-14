@@ -1,0 +1,25 @@
+1.what is data type?
+Data type is used give what kind of data is...
+
+There are two types of data....
+	1. Primitive data types..
+	2.Non primitive data type..
+	
+	
+2.What is primitive data type?
+A primitive data type is a fixed in size.
+like..byte, short,int, double, long,float, char,boolean..these all have a fixed size...
+	
+	Created one class called Datatype from there you can refere how to datatypes are working..
+	
+
+3. Non primitive data type:-
+It does not have a fixed size.
+It is also known as reference typeps..
+These all are created by programmer ...its not a pre-defined data type.
+
+such as :-
+Array
+String
+Interface
+Classes	

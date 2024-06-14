@@ -1,0 +1,13 @@
+Variables is a container where we can store data in computer memory.
+
+Variable is also called a named memory location...why because suppose a=10 so here we r giving a equal 10, means we 
+are giving name to that variable.
+
+Variable is pointing to memory address.
+
+There are few rules for variables listed below:-
+
+1. We can not start variable with digit. like int 1=1bd;(it is invalid).
+2.We can not use special character such as *,@,# etc, only we can use _(underscore) and $.
+
+ 
